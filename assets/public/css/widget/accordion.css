@@ -1,0 +1,82 @@
+/*---------------------------------------------------
+  TPW ACCORDION PAGE STYLESHEET
+----------------------------------------------------*/
+.tpw-evt-accordion-section {
+    padding: 96px 0 200px;
+}
+.card {
+  position: relative;
+  border-radius: 3px;
+  margin-bottom: 24px;
+  background-color: #F9FAFC;
+  border: 4px solid #E5E9F2;
+}
+.card.card__active {
+  border: none;
+  border: 4px solid #E5E9F2;
+  background-color: #FFFFFF;
+  -webkit-background-color: #FFFFFF;
+  box-shadow: 0px 30px 80px rgba(21, 21, 21, 0.06);
+}
+.card-header {
+  padding: 0;
+  transition: all 0.4s;
+  border-bottom: none !important;
+}
+.card-body {
+  padding: 0 47px 25px 60px;
+  color: #576477;
+}
+.card.card__active .card-header {
+  border: none;
+  background-color: transparent !important;
+}
+.card.card__active .card-body{
+  background-color: transparent !important;
+}
+.card.card__active .btn.btn-link{
+  color: #001737 !important;
+  background-color: #fff !important;
+}
+.tpw-tab-title {
+  display: block;
+  text-align: left;
+  padding: 23px 58px;
+  color: #001737 !important;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.4s;
+  background-color: #fff;
+}
+.tpw-tab-question-icon {
+  position: absolute;
+  left: 20px;
+  top: 19px;
+  width: 23px;
+}
+.tpw-tab-plus-icon, .card.card__active .tpw-tab-plus-icon {
+  display: block;
+  font-size: 22px;
+  color: #001737;
+  position: absolute;
+  top: 25px;
+  right: 22px;
+  transition: all 0.4s;
+  -webkit-text-stroke: 2px #fff;
+}
+.card.card__active .tpw-tab-plus-icon i {
+  display: none;
+}
+.card.card__active .tpw-tab-plus-icon::before {
+  content: "\f068";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 1px;
+  right: 0px;
+  transition: all 0.4s;
+}
+.tpw-evt-contact2 {
+  width: 544px;
+  margin: 0 auto;
+}

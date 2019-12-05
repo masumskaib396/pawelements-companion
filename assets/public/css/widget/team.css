@@ -1,0 +1,320 @@
+
+/*Team Photo*/
+.pawelem-member-figure img{
+    width: 100%;
+    height: 100% !important;
+    vertical-align: bottom;
+    object-fit: cover;
+}
+/*Team Body Content*/
+.pawelem-profile-name {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .3s;
+}
+.pawelem-job-title {
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/*Short bio*/
+span.pawelem-short-bio{
+    display: inline-block;
+}
+/*User Profile*/
+.pawelem-membar-link{
+    margin-top: 20px;
+}
+.pawelem-membar-link>a>i{
+    width: 1em;
+    height: 1em;
+    transition: all 0.4s;
+}
+.pawelem-membar-link > a {
+    display: inline-block;
+    margin-right: 1rem;
+    text-align: center;
+    transition: .3s;
+    line-height: 1em;
+    transition: all 0.4s;
+}
+.ha-member-links>a:not(:last-child) {
+    margin-right: .1rem;
+}
+.pawelem-membar-link > a:last-child {
+    margin-right: 0 !important;
+}
+.pawelem-membar-link {
+    margin-top: 20px;
+}
+.pawelem-membar-link img{
+    object-fit: cover;
+    
+}
+.pawelem-team-singe{
+    transition: all 0.4s;
+
+}
+/***************** style one css *******************/
+.pawelem-team-singe.style_one {
+    position: relative;
+}
+.style_one .pawelem-team-body {
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    position: absolute;
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    bottom: -35px;
+    transition: all 0.4s;
+    overflow: hidden;
+    height: 60px;
+}
+.pawelem-team-singe.style_one:hover .pawelem-team-body {
+    height: 144px;
+}
+/***************** style two css *******************/
+.pawelem-team-singe.style_two {
+    position: relative;
+}
+
+.style_two .pawelem-team-body {
+    position: absolute;
+    bottom: 35px;
+    right: 45px;
+}
+
+.style_two .pawelem-team-body h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.style_two .pawelem-team-body h5 {
+    color: #7F92A3;
+}
+
+/***************** style three css *******************/
+.style_three .pawelem-team-body {
+    display: flex;
+}
+.style_three .pawelem-team-body .team-content-wrap {
+    flex: 0 0 82%;text-align: left;
+    padding: 8px 25px;
+    box-shadow: 0px -15px 0px 0 #023DA1;
+    background: #023DA1;
+}
+.style_three .pawelem-team-body .team-content-wrap h3 {
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.style_three .pawelem-team-body .team-content-wrap h5 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 0;
+}
+.style_three .pawelem-membar-link {
+    flex: 0 0 18%;
+    -webkit-box-flex: 0;
+    text-align: center;
+    background: #FD6205;
+    margin-top: 0px;
+    padding: 5px 0px;
+}
+.style_three .pawelem-membar-link > a {
+    color: #fff;
+    margin-right: 0rem;
+    display: block;
+    line-height: 30px;
+}
+.style_three:hover .team-content-wrap h3 {
+    border-bottom: 2px solid #FD6205;
+    padding: 0px 0px 5px;
+    transition: all 0.4s;
+}
+/***************** style four css *******************/
+.pawelem-team-singe.style_four span.pawelem-short-bio {
+    position: absolute;
+    color: #536476;
+    font-weight: 400;
+    width: 100%;
+    transform: translateX(-50%);
+    left: 50%;
+    padding: 0px 40px;
+    transition: all 0.4s;
+    bottom: 90px;
+    opacity: 0;
+}
+.pawelem-team-singe.style_four figure.pawelem-member-figure {
+    position: relative;
+    margin-bottom: 30px;
+    background: #F8F8F8;
+}
+.pawelem-team-singe.style_four figure.pawelem-member-figure:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid #F8F8F8;
+    opacity: 0;
+    transition: 0.4s;
+}
+.pawelem-team-singe.style_four:hover .pawelem-member-figure:after {
+    opacity: 1;
+}
+.pawelem-team-singe.style_four:hover span.pawelem-short-bio {
+    opacity: 1;
+    bottom: 130px;
+}
+/***************** style five css *******************/
+.pawelem-team-singe.style_five{
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.pawelem-team-singe.style_five .pawelem-team-body {
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.pawelem-team-singe.style_five:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0, 22, 42, 0.8);
+    content: "";
+}
+.pawelem-team-singe.style_five:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background: rgba(0, 22, 42, 0.8);
+    content: "";
+    transition: all 0.4s;
+}
+.pawelem-team-singe.style_five:hover:before {
+    height: 50%;
+}
+.pawelem-team-singe.style_five:hover .pawelem-team-body {
+    opacity: 1;
+    bottom: 10px;
+}
+.style_five h3.pawelem-profile-name,
+.style_five h5.pawelem-job-title,
+.style_five .pawelem-membar-link > a {
+    color: #fff;
+}
+/***************** style six css *******************/
+.pawelem-team-singe.style_six {
+    position: relative;
+}
+.pawelem-team-singe.style_six:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    content: "";
+    background: linear-gradient(275.1deg, #FA326F 0%, #F2514D 99.94%);
+    transition: all 0.4s;
+    opacity: 0.8;
+    visibility: hidden;
+    height: 0;
+}
+.pawelem-team-singe.style_six:hover:after {
+    height: 100%;
+    visibility: visible;
+}
+.pawelem-team-singe.style_six .team-content-wrap {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    left: 45px;
+    transition: all 0.4s;
+    opacity: 0;
+}
+.pawelem-team-singe.style_six:hover .team-content-wrap {
+    opacity: 1;
+    top: 70px;
+}
+.pawelem-team-singe.style_six .team-content-wrap h3 {
+    color: #fff;
+}
+
+.pawelem-team-singe.style_six .team-content-wrap h5 {
+    color: #fff;
+}
+
+.pawelem-team-singe.style_six .pawelem-membar-link {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    z-index: 1;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.pawelem-team-singe.style_six .pawelem-membar-link a {
+    color: #092C4C;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.pawelem-team-singe.style_six:hover .pawelem-membar-link {
+    opacity: 1;
+    bottom: 55px;
+}
+/***************** style six css *******************/
+.pawelem-team-singe.style_seven {
+    position: relative;
+    transition: all 0.4s;
+}
+.pawelem-team-singe.style_seven:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: linear-gradient(180deg, rgba(0, 5, 19, 0) 32.29%, #000512 100%);
+    opacity: 0;
+    transition: all 0.3s;
+}
+.pawelem-team-singe.style_seven:hover:after {
+    opacity: 1;
+}
+.pawelem-team-singe.style_seven .pawelem-team-body {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s;
+    left: 0;
+}
+.pawelem-team-singe.style_seven .pawelem-team-body h3,
+.pawelem-team-singe.style_seven .pawelem-team-body h5,
+.pawelem-team-singe.style_seven .pawelem-membar-link > a {
+    color: #fff;
+}
+.pawelem-team-singe.style_seven:hover .pawelem-team-body {
+    opacity: 1;
+    visibility: visible;
+    bottom: 30px;
+}

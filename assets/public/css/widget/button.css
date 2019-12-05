@@ -1,0 +1,252 @@
+.pawelem-button {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out !important;
+    -moz-transition: all 0.4s ease-in-out !important;
+    -ms-transition: all 0.4s ease-in-out !important;
+    -o-transition: all 0.4s ease-in-out !important;
+    transition: all 0.4s ease-in-out !important;
+}
+a.pawelem-button{
+    -webkit-transition: all 0.4s ease-in-out !important;
+    -moz-transition: all 0.4s ease-in-out !important;
+    -ms-transition: all 0.4s ease-in-out !important;
+    -o-transition: all 0.4s ease-in-out !important;
+    transition: all 0.4s ease-in-out !important;
+}
+.pawelem-button-sm {
+    padding: 10px 21px 10px 21px;
+    font-size: 13px;
+    line-height: 1;
+}
+.pawelem-button-md {
+    padding: 14px 22px 14px 22px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.pawelem-button-lg {
+    padding: 18px 40px 18px 40px;
+    font-size: 14px;
+    line-height: 1.3333;
+}
+.pawelem-button-ex {
+    padding: 23px 40px 23px 40px;
+    font-size: 15px;
+    line-height: 1.3333;
+}
+.pawelem-button-block {
+    font-size: 15px;
+    line-height: 1;
+    padding: 14px 22px 14px 22px;
+    width: 100%;
+    text-align: center;
+}
+.pawelem-button-text {
+    display: inline-block;
+    width: 100%;
+}
+
+.pawelem-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    font-weight: 400;
+}
+.pawelem-button-style1-bottom,
+.pawelem-button-style1-top,
+.pawelem-button-style1-right,
+.pawelem-button-style1-left,
+.pawelem-button-style2-shutouthor,
+.pawelem-button-style2-shutoutver,
+.pawelem-button-style2-shutinhor,
+.pawelem-button-style2-shutinver,
+.pawelem-button-style2-scshutouthor,
+.pawelem-button-style2-scshutoutver,
+.pawelem-button-style2-dshutinhor,
+.pawelem-button-style2-dshutinver,
+.pawelem-button-style3-radialin,
+.pawelem-button-style3-radialout,
+.pawelem-button-style3-rectin,
+.pawelem-button-style3-rectout {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    -moz-transition: all 0.3s ease-in-out !important;
+    -ms-transition: all 0.3s ease-in-out !important;
+    -o-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+}
+.pawelem-button-style1-bottom:before,
+.pawelem-button-style1-top:before,
+.pawelem-button-style1-right:before,
+.pawelem-button-style1-left:before,
+.pawelem-button-style2-shutinhor:before,
+.pawelem-button-style2-shutinver:before,
+.pawelem-button-style2-shutouthor:before,
+.pawelem-button-style2-shutoutver:before,
+.pawelem-button-style2-scshutouthor:before,
+.pawelem-button-style2-scshutoutver:before,
+.pawelem-button-style2-dshutinhor:before,
+.pawelem-button-style2-dshutinver:before,
+.pawelem-button-style3-radialin:before,
+.pawelem-button-style3-radialout:before,
+.pawelem-button-style3-rectin:before,
+.pawelem-button-style3-rectout:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.50s;
+    transition-duration: 0.50s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.pawelem-button-style3-radialin:before,
+.pawelem-button-style3-radialout:before {
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.pawelem-button-style3-radialin:before { 
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
+.pawelem-button-style3-rectin:before,
+.pawelem-button-style3-rectout:before {
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.pawelem-button-style3-rectout:before {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.pawelem-button-style3-rectout:hover:before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.pawelem-button-style3-rectin:hover:before {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.pawelem-button-style3-radialout:hover:before {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
+.pawelem-button-style3-radialin:hover:before {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.pawelem-button-style1-top:before {
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+.pawelem-button-style1-right:before {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+}
+.pawelem-button-style1-left:before {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+}
+.pawelem-button-style2-shutouthor:before,
+.pawelem-button-style2-scshutoutver:before{
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+}
+.pawelem-button-style2-shutoutver:before,
+.pawelem-button-style2-scshutouthor:before{
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.pawelem-button-style2-shutinhor:before{
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+}
+.pawelem-button-style2-shutinver:before{
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+}
+.pawelem-button-style1-bottom:hover:before,
+.pawelem-button-style1-top:hover:before{
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+.pawelem-button-style1-left:hover:before,
+.pawelem-button-style1-right:hover:before,
+.pawelem-button-style2-shutouthor:hover:before,
+.pawelem-button-style2-shutoutver:hover:before{
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.pawelem-button-style2-shutinhor:hover:before{
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+.pawelem-button-style2-shutinver:hover:before{
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+}
+.pawelem-button-style2-scshutouthor:hover:before{
+  -webkit-transform: scaleX(0.9);
+  transform: scaleX(0.9);
+}
+.pawelem-button-style2-scshutoutver:hover:before{
+  -webkit-transform: scaleY(0.8);
+  transform: scaleY(0.8);
+}
+/*Diagonal*/
+.pawelem-button-style2-dshutinhor:before,
+.pawelem-button-style2-dshutinver:before {
+    top: 50%;
+    left: 50%;
+    width: 120%;
+    height: 0%;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+    transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: all;
+    transition-property: all;
+}
+.pawelem-button-style2-dshutinver:before {
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+.pawelem-button-style2-dshutinhor:hover:before,
+.pawelem-button-style2-dshutinver:hover:before{
+    height: 220%;
+}
